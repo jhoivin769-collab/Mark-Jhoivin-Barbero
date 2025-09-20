@@ -1,7 +1,7 @@
 # Mark-Jhoivin-Barbero
 # 👾 Mark Jhoivin Barbero | BSIT Student & Gamer  
 
-<img src="https://YOUR-IMAGE-LINK" alt="Profile Pic" width="150" style="border-radius: 50%;"/>
+<img src="https://raw.githubusercontent.com/jhoivin769-collab/Mark-Jhoivin-Barbero/refs/heads/main/profile.jpeg" alt="Profile Pic" width="150" style="border-radius: 50%;"/>
 
 ---
 
