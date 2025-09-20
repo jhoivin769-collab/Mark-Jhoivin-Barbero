@@ -12,23 +12,15 @@ Always aiming to **level up my skills** while enjoying my time as a gamer in **R
 
 ---
 
-## 🎮 Games I Play
-<p align="center">
-  <a href="https://www.roblox.com/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Roblox_logo_2017.png" alt="Roblox" width="100"/><br>
-    <b>Roblox</b>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.callofduty.com/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Call_of_Duty_logo.svg" alt="Call of Duty" width="120"/><br>
-    <b>Call of Duty</b>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://playvalorant.com/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Valorant_logo_-_pink_color_version.svg" alt="Valorant" width="100"/><br>
-    <b>Valorant</b>
-  </a>
-</p>
+🕹️ Games I Play
+
+<a href="https://www.roblox.com/" target="_blank">  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Roblox_logo_2022.svg" alt="Roblox" width="100"/>  
+</a>  <a href="https://www.callofduty.com/" target="_blank">  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Call_of_Duty_logo.svg" alt="Call of Duty" width="120"/>  
+</a>  <a href="https://playvalorant.com/" target="_blank">  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Valorant_logo.svg" alt="Valorant" width="100"/>  
+</a>
 
 ---
 
