@@ -3,67 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
+    <title>My Resume</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #e0f7fa, #ffffff); /* light blue to white */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .container {
+            max-width: 700px;
+            margin: 30px auto;
+            text-align: center;
+            background: #ffffff; /* white card */
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #00796b;
+        }
+        img {
+            width: 220px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            border: 3px solid #00796b;
+        }
+        .info {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background: #00796b;
+            margin: 20px 0;
+        }
+        h3 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #00796b;
+            margin-bottom: 10px;
+        }
+        .section p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>RESUME</h1>
 
-<style>
-body{
-background-color:mediumaquamarine;
-}
+        <!-- Profile Picture -->
+        <img src="profile.jpeg" alt="Profile Picture">
 
+        <!-- Contact Info -->
+        <div class="info">Mark Jhoivin Barbero</div>
+        <div class="info">09612625948</div>
+        <div class="info">markjhoivinbarbero@gmail.com</div>
 
-h1{ 
-color: violet;
-text-align:center;
-}
-h3{
-text-align: center;
-color:black;
-}
-p{
-text-align: center;
-color:black;
-}
+        <hr>
 
-</style>
-</head>
-<body>
+        <!-- Personal Information -->
+        <h3>PERSONAL INFORMATION</h3>
+        <div class="section">
+            <p><strong>Name:</strong> Mark Jhoivin Barbero</p>
+            <p><strong>Date of Birth:</strong> March 22, 2003</p>
+            <p><strong>Address:</strong> Macray, Bangued, Abra</p>
+        </div>
 
-<hr>
-<h3> MY RESUME</h3>
-<hr> 
-<p>Joseph Barbero</p> 
-<a href="index.html"></a>
-<p> 09612625948</p>
-<p>markjhoivinbarbero@gmail.com</p>     
+        <hr>
 
-<hr>
-<h3> personal information</h3>
-<hr>
-
-<p> name:Mark Jhoivin Barbero</p>
-<p>date of birth;March 22, 2003</p>
-<p>Address:Macray Bangued Abra </p>
-
-<hr>
-<h3> EDUCATIONAL BACKROUND</h3>
-<hr>
-
-<P>Primary school:Dangdangla Elementary School</P>
-<p>Year Graduated:2016</p>
-<p>Secondary school:Abra High school</p>
-<p>Year Graduated:2022</p>
-<p>Tertiary school:Data Center college of the phiippines</p>
-<p>Course:Bachelor of Science information Technologh</p>
-
-
-
-    
-</style>
-
-
-
-
+        <!-- Education -->
+        <h3>EDUCATIONAL BACKGROUND</h3>
+        <div class="section">
+            <p><strong>Primary:</strong> Dangdangla Elementary School (2016)</p>
+            <p><strong>Secondary:</strong> Abra High School (2022)</p>
+            <p><strong>Tertiary:</strong> Data Center College of the Philippines</p>
+            <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+        </div>
+    </div>
 </body>
 </html>
