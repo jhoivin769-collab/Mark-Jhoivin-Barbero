@@ -1,7 +1,7 @@
 ## 📄 My Resume  
 📌 [Click here to view my Resume](https://jhoivin769-collab.github.io/Mark-Jhoivin-Barbero/)
 
-
+<br> <br/>
 
 
 # 👾 Mark Jhoivin Barbero | BSIT Student & Gamer  
