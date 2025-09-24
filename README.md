@@ -26,7 +26,7 @@ Just like in gaming, I’m on a constant journey to **level up my skills** — w
 ---
 
 ## 📄 My Resume  
-📌 [Click here to view my Resume](https://jhoivin769-collab.github.io/Mark-Jhoivin-Barbero/Resume.html)
+📌 [Click here to view my Resume](https://jhoivin769-collab.github.io/Mark-Jhoivin-Barbero/)
 
 ---
 
