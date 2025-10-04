@@ -1,104 +1,50 @@
-/* ======== General Page Setup ======== */
 body {
-    font-family: 'Poppins', Arial, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: #f0f0f0;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #222;
 }
-
-/* ======== Header Section ======== */
-header {
+.container {
+    max-width: 700px;
+    margin: 30px auto;
     text-align: center;
-    padding: 50px 20px;
-    background: rgba(255, 255, 255, 0.05);
-    border-bottom: 2px solid #00ffcc;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-
-header h1 {
-    color: #00ffcc;
-    font-size: 36px;
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #00796b;
+}
+img {
+    width: 220px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 3px solid #00796b;
+}
+.info {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+hr {
+    border: none;
+    height: 2px;
+    background: #00796b;
+    margin: 20px 0;
+}
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00796b;
     margin-bottom: 10px;
 }
-
-header p {
-    color: #cccccc;
+.section p {
     font-size: 18px;
-}
-
-/* ======== Navigation Bar ======== */
-nav {
-    background: #111;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    padding: 15px 0;
-    border-bottom: 2px solid #00ffcc;
-}
-
-nav a {
-    color: #f0f0f0;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    position: relative;
-    transition: color 0.3s ease;
-}
-
-nav a::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 3px;
-    background: #00ffcc;
-    transition: width 0.3s ease;
-}
-
-nav a:hover {
-    color: #00ffcc;
-}
-
-nav a:hover::after {
-    width: 100%;
-}
-
-/* ======== Main Content ======== */
-main {
-    padding: 40px;
-    text-align: center;
-}
-
-main h2 {
-    color: #00ffcc;
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-main p {
-    color: #d1d1d1;
-    font-size: 18px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* ======== Footer ======== */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.05);
-    border-top: 2px solid #00ffcc;
-    color: #999;
-    font-size: 14px;
-    margin-top: 40px;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* ======== Optional: Smooth Hover Animation ======== */
-a, button {
-    transition: all 0.3s ease;
+    margin: 5px 0;
 }
