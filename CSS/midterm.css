@@ -48,3 +48,18 @@ h3 {
     font-size: 18px;
     margin: 5px 0;
 }
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00796b;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
