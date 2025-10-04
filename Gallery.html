@@ -1,73 +1,28 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <style>
-        body {
-            margin: 0; 
-            overflow: hidden; 
-        }
-
-        .video-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            z-index: -1;
-        }
-
-        .video-background video {
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .scroll-container {
-            background-color:black red;
-            overflow: hidden; 
-            white-space: nowrap;
-            padding: 10px;
-            position: absolute; 
-            top: 50%;          
-            left: 50%;          
-            transform: translate(-50%, -50%); 
-            width: 100%;       
-            box-sizing: border-box; 
-        }
-
-        .scroll-container img {
-            margin: 0 10px; 
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="CSS/midterm.css">
 </head>
 <body>
-    <div class="video-background">
-        <video autoplay loop muted playsinline>
-            <source src="vid/32ff9a82-268d-4c68-90b0-16eee4a0794b.mp4" type="video/mp4">
-           
-        </video>
-    </div>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <div class="scroll-container">
-        <marquee>
-            <img src="img/d6708e11-b343-425b-973b-b668fc6e46b7.jpg" width="280" height="250" alt="Image">
-            <img src="img/fb2c884b-92c6-4828-b497-ae75efe82899.jpg" width="280" height="250" alt="Image">
-            <img src="img/f45da325-25ff-4f89-be80-c63c503851d6.jpg" width="280" height="250" alt="Image">
-            <img src="img/8b80df86-28d7-40a4-a98d-0c2b2ab4b577.jpg" width="280" height="250" alt="Image">
-            <img src="img/64863a6a-0ffc-47d5-9f9f-f46a75d5d73f.jpg" width="280" height="250" alt="Image">
-            <img src="img/2a2b2196-db78-44b8-bcc4-be73166edf6d.jpg" width="280" height="250" alt="Image">
-            <img src="img/1f59f841-3187-45d6-9ac1-95600f9f0a6a.jpg" width="280" height="250" alt="Image">
-            <img src="img/177306bd-6f94-4317-a9cd-2e152ae53da7.jpg" width="280" height="250" alt="Image">
-        </marquee>
-    </div>
+  <div class="content">
+    <h1>My Gallery</h1>
+    <p>Here are some of my pictures and works:</p>
+    <img src="profile.jpeg" alt="Profile Picture" width="200">
+    <!-- You can add more images here -->
+  </div>
 </body>
 </html>
