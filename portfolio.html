@@ -3,38 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="css/midterm.css">
+  <title>Portfolio - Mark Jhoivin Barbero</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
-    <div class="logo">Makoy's Portfolio</div>
-    <ul>
+    <div class="logo">Mark Jhoivin Barbero</div>
+    <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="About.html">About</a></li>
-      <li><a href="Resume.html">Resume</a></li>
       <li><a href="Gallery.html">Gallery</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
       <li><a href="Contact.html">Contact</a></li>
     </ul>
   </nav>
 
-  <div class="container portfolio-section">
-    <h1>My Projects</h1>
-    <div class="project-card">
-      <h2>Resume Website</h2>
-      <p>A clean and simple personal resume website built using HTML and CSS.</p>
-    </div>
-    <div class="project-card">
-      <h2>Online Reservation System</h2>
-      <p>A school project that allows users to reserve rooms and track bookings efficiently.</p>
-    </div>
-    <div class="project-card">
-      <h2>Gaming Profile Page</h2>
-      <p>A creative webpage showcasing my favorite games like Roblox, Valorant, and COD.</p>
-    </div>
-  </div>
+  <section>
+    <h1>My Portfolio</h1>
+    <div class="projects">
+      <div class="project-card">
+        <img src="photo1.jpeg" alt="Project 1">
+        <h3>SmartWaste Management System</h3>
+        <p>A project proposal focused on improving waste collection efficiency using technology.</p>
+      </div>
 
-  <footer>© markjhoivinbarbero@gmail.com / 2025 </footer>
+      <div class="project-card">
+        <img src="photo2.jpeg" alt="Project 2">
+        <h3>Online Reservation System</h3>
+        <p>A system designed for hotel booking and management with database integration.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="photo3.jpeg" alt="Project 3">
+        <h3>Eternal Night (Game Project)</h3>
+        <p>A 3D RTS game project demonstrating creativity and logic in gameplay design.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mark Jhoivin Barbero | All Rights Reserved</p>
+    <div class="socials">
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
 </body>
 </html>
